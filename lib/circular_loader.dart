@@ -191,7 +191,7 @@ class CircularLoaderComponent extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.start,
           children: [
             controller.value.icon ??
-                const Icon(
+                const FaIcon(
                   FontAwesomeIcons.checkCircle,
                   color: Colors.green,
                   size: 50,
@@ -297,7 +297,7 @@ class CircularLoaderComponent extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.start,
             children: [
               controller.value.icon ??
-                  const Icon(
+                  const FaIcon(
                     FontAwesomeIcons.timesCircle,
                     color: Colors.red,
                     size: 50,
